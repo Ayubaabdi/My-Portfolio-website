@@ -230,6 +230,63 @@ body {
     color: gold;
     cursor: pointer;
 }
+
+/* Project Sections */
+
+.project-section {
+    height: 70vh;
+}
+
+.top-projects {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-info {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0px  #ccc;
+    width: 20rem;
+    border-radius:  4px 4px 0 0 ;
+}
+.deials-projects img {
+    width: 20rem;
+    height: 22rem;
+    border-radius:  4px 4px 0 0 ;
+}
+
+
+.title-texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-texts h2 {
+    font-size: 1.2rem;
+    color: rgb(242, 107, 14);
+    text-decoration: none;
+    margin-top: 1rem;
+    text-align: center;
+}
+.title-texts a {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+
+
+
+
+
 /* Tablet  Menu */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .nav-section {
@@ -396,6 +453,38 @@ body {
         border-radius: 50%;
         text-align: center;
         color: #fff;
+    }
+
+
+    .About-us {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5rem;
+}
+    .about-details img {
+        width: 22rem;
+        height: 25rem;
+    } 
+    .about-details {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+    }
+
+    .text-about h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+        
+    }
+
+    .link-agency {
+        font-size: 1.2rem;
+        color: black;
+    }
+    
+    .text-about p {
+        text-align: left;
+        font-size: 1rem;
     }
 
   
