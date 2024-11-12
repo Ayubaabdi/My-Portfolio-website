@@ -374,6 +374,33 @@ img {
     
     }
 
+    .project-section {
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+    .top-projects {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+       
+    }
+
+    .project-info {
+        background-color: #fff;
+        box-shadow: 1px 1px 4px 0px  #ccc;
+        width: 17rem;
+        border-radius:  4px 4px 0 0 ;
+        margin: 2rem;
+    }
+    
+    .deials-projects img {
+        width: 17rem;
+        height: 22rem;
+        border-radius:  4px 4px 0 0 ;
+    }
+
 }
 
 /* Mobile Menu */
@@ -487,6 +514,14 @@ img {
         font-size: 1rem;
     }
 
+    .project-section {
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+    .project-info {
+        
+        margin: 2rem 0;
+    }
   
     
 
