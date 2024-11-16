@@ -234,7 +234,8 @@ body {
 /* Project Sections */
 
 .project-section {
-    height: 70vh;
+    height: 100vh;
+    margin-bottom: 12rem;
 }
 
 .top-projects {
@@ -254,6 +255,7 @@ img {
     box-shadow: 1px 1px 4px 0px  #ccc;
     width: 20rem;
     border-radius:  4px 4px 0 0 ;
+    margin: 2rem 0;
 }
 .deials-projects img {
     width: 20rem;
@@ -282,47 +284,39 @@ img {
     
 }
 
-.showCase-section {
-    width: 100%;
-    height: 100vh;
-    background-color: #f5f5f5;
-}
+/* my skills */
 
-.imgs-1, .imgs-2, .imgs-3, .imgs-4,  img {
-    width: 20rem;
-    height: 24rem;
-}
-
-.show-imgs {
-    width: 100%;
+.my-skill  {
     height: 100%;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 4vw);
-    gap: 1rem;
-    padding: 10px;
+    margin-bottom: 5rem;
+
+}
+.bx-skill 
+{
+    margin-top: 5rem;
+}
+.bx-info-in {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.details .fa-brands {
+    color: rgb(242, 107, 14);
+    font-size: 3rem;
+}
+.details h3, .fa-solid {
+    color: #9ca3af;
 
 }
 
-.imgs-1 {
- grid-row-start: 1;
- grid-row-end: 3;
+.bx-skiller {
+    border: 1px solid black;
+    padding: 2rem;
 }
 
-.imgs-2 {
-    grid-row-start: 3/5;
-    grid-row-end: 4/6;
-}
 
-.imgs-3 {
 
-}
-
-.imgs-4 {
-    grid-row-start: 2;
-    grid-row-end: 9;
-    
-}
 
 /* Tablet  Menu */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
