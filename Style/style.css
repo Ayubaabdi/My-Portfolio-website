@@ -304,6 +304,7 @@ img {
 .details .fa-brands {
     color: rgb(242, 107, 14);
     font-size: 3rem;
+    margin-bottom: 1rem;
 }
 .details h3, .fa-solid {
     color: #9ca3af;
@@ -553,11 +554,16 @@ img {
         
         margin: 2rem 0;
     }
-  
-    
 
-    
+    /* My Skills */
+    .my-skill  {
+        height: 100%;
+        margin-bottom: 5rem;
+    }
 
+    .bx-skiller {
+        margin: 2rem 0;
+    }
    
    
   
